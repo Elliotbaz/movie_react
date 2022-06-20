@@ -1,0 +1,10 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  background-color: rgba(151, 151, 151, 0.03);
+}
+
+*{
+  box-sizing: border-box;
+}

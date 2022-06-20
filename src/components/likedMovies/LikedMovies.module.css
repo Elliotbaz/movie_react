@@ -1,0 +1,80 @@
+.moviesBox {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-top: 1px solid #292929;
+}
+
+.moviesBox:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+
+.moviesImage {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.moviesImages img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.moviesTitle {
+    display: block;
+    font-weight: 600;
+    display: -webkit-box;
+    max-width: 80%;
+    -webkid-line-clamp: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3a3a3a;
+    margin: 20px 0px 0px 20px;
+}
+
+.releaseDate {
+    display: block;
+    font-size: 14px;
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+.textPart {
+    padding-top: 550px;
+    text-align: center;
+}
+
+.likeButtonBox button {
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.likeButtonBox button:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+    transition: all ease 1s;
+}
+
+.topInfo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.06);
+}
